@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Travel Web Pratice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    p {
+      font-family: Roboto, Arial;
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+
+    .flex-bottom-bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 24px;
+      padding-right: 24px;
+   
+      background-color: #021A34
+;
+      margin-top: 64px;
+    }
+    
+
+    .text-bottom {
+      margin-top: 50px;
+      margin-left: 0;
+      margin-right: 0;
+     
+      font-size: 20px;
+      color: white;
+    }
+
+    .logo {
+      display: flex;
+      margin-top: 16px;
+      justify-content: center;
+    }
+
+    .li-style {
+      list-style-type: none;
+      margin-right: 32px;
+      color: black;
+
+    }
+
+    .bigest-text {
+      font-family: Roboto;
+      font-size: 48px;
+      font-weight: 500;
+      margin-right: 32px;
+      ;
+    }
+
+    .bigger-the-biggest-text {
+      display: flex;
+      justify-content: center;
+      font-family: Roboto;
+      font-size: 70px;
+      font-weight: 700;
+      margin-top: 64px;
+      margin-bottom: 64px;
+
+
+    }
+
+    .smallest-text {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+
+    .button-1 {
+      color: white;
+      background-color: #FFA800;
+      border: none;
+      font-size: 20px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+
+    .button-2 {
+      color: white;
+      background-color: #FFA800;
+      border: none;
+      font-size: 20px;
+      padding-left: 19px;
+      padding-right: 19px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      border-radius: 5px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+
+    .input {
+      
+      padding-right: 138px;
+      padding-left: 25px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      margin-right: 17px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      background-color: #021A34;
+      color: white;
+      border: #FFA800;
+      border-style: solid;
+      border-radius: 1px;
+      border-width: 2px;
+
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div style="display: grid ; grid-template-columns: 256px 1fr 256px">
+    <div></div>
+    <div>
+      <div>
+        <div> <img src="day1_1.jpg"></div>
+        <div class="logo"> <img style="width:213px; height: 80px" src="Day1_2.png"></div>
+        <div>
+          <ul style="display: flex ;justify-content: center; font-family: Roboto; margin-top: 16px; font-size: 16px; ">
+            <li class="li-style"><a style="text-decoration: underline;" href="">Home</a></li>
+            <li class="li-style"><a style="text-decoration: none;" href="">Page</a></li>
+            <li class="li-style"><a style="text-decoration: none;" href="">Destination</a></li>
+            <li class="li-style"><a style="text-decoration: none;" href="">Blog</a></li>
+            <li class="li-style"><a style="text-decoration: none;" href="">Landing</a></li>
+            <li class="li-style" style="margin-right: 0px;"><a style="text-decoration: none;" href="">Shop</a></li>
+          </ul>
+        </div>
+        <div style="display: flex ; flex-direction: row;justify-content: space-between; margin-top: 32px;">
+          <div style="display: grid; grid-template-rows: 262px 276px 262px">
+            <div></div>
+            <div class="bigest-text">
+              EXPLORING THE SUBURB SINCE 2019
+              <p class="smallest-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididu nt ut labore et
+                dolore labore et dolore.
+              </p>
+              <button class="button-1" style="vertical-align: top;">Read more</button>
+            </div>
+            <div></div>
+          </div>
+
+          <div>
+            <img src="Day1_3.jpg">
+          </div>
+        </div>
+        <div class="bigger-the-biggest-text">FEATURED BLOG POSTS</div>
+        <div style="display: flex ; flex-direction: row;justify-content: space-between;">
+          <img src="Day1_4.jpg">
+          <img src="Day1_5.jpg">
+          <img src="Day1_6.jpg">
+        </div>
+        <div class="flex-bottom-bar">
+          <div class="text-bottom">
+            <p>© 2021 Qode Interactive, All Rights Reserved</p>
+          </div>
+          <div style="display: flex;">
+            <div>
+              <input class="input" type="text" placeholder="Email Address">
+            </div>
+            <button class="button-2"> Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+  </div>
+
+
+</body>
+
+</html>
